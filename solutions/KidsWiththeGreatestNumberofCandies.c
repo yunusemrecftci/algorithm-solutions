@@ -11,7 +11,6 @@ int findMax(int candies[], int n) {
     }
     return max;
 }
-
 bool* kidsWithCandies(int candies[], int n, int extraCandies, int* returnSize) {
     bool* result = (bool*)malloc(n * sizeof(bool));
     if (!result) {
